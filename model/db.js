@@ -1,18 +1,16 @@
 var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
 
-mongoose.connect('mongodb://localhost:3000/fachada');
+mongoose.connect('mongodb://localhost:3000/Fachada');
 
 var db = mongoose.connection;
 
-db.on('connected', () => {
+db.connection.on('connected', () => {
   console.log('it worked!!!');
 });
-
-db.on('error', (err) => {
+db.connection.on('error', (err) => {
   console.log('you suck' + err);
 });
-db.on('disconnected', () => {
+db.connection.on('disconnected', () => {
   console.log('it stopped working :c');
 });
 process.on('SIGINT', () => {
@@ -22,4 +20,4 @@ process.on('SIGINT', () => {
   });
 });
 
-require('./schema.js');
+require('./model/schema.js');

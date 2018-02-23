@@ -26,6 +26,7 @@
     "express-messages": "*",
     "express-session": "*",
     "express-validator": "*",
+    "flash": "^1.1.0",
     "mongodb": "*",
     "mongoose": "^5.0.6",
     "passport": "*",
