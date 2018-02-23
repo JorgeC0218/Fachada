@@ -15,9 +15,10 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 //init app
 var app = express();
-var db = require('./model/db.js');
-var schema = require('./model/schema.js');
-var http = require('http');
+var http = require('http'),
+  db = require('./model/db'),
+  pages = require('./pages');
+
 
 
 ////view Engine
@@ -37,10 +38,10 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 //Express session
-app.use(session({
-  secret: 'secret',
-  saveUnitialized: true,
-  resave: true
+app.use(session) {
+secret: 'secret',
+saveUnitialized: true,
+resave: true
 }));
 
 //passport init
@@ -78,11 +79,7 @@ app.use(function(req, res, next) {
 
 //Set port
 http.createServer(function(req, res) {
-  pages.index(req, res)
-}).listen(3000, 'localhost');
-
-app.set('port', (process.env.PORT || 3000));
-
-app.listen(app.get('port'), function() {
-  console.log("Server started on port" + app.get('port'));
-});
+    pages.index(req, res)
+  }).listen(3000, function() {
+      console.log('Server started!');
+    };

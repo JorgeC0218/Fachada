@@ -20,4 +20,4 @@ process.on('SIGINT', () => {
   });
 });
 
-require('./model/schema.js');
+require('./user.js');
