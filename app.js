@@ -13,9 +13,9 @@ var mongo = require('mongodb');
 var mongoose = require('mongoose');
 var routes = require('./routes/index');
 var users = require('./routes/users');
-//init app
 var db = require('./model/db.js');
 var schema = require('./model/schema.js');
+//init app
 var app = express();
 
 
