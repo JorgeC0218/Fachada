@@ -5,20 +5,20 @@ var userSchema = new mongoose.Schema({
   location: String,
   ranking: Number,
   bio: String,
-  userPic: {},
+  userPic: String,
   whatsApp: Number,
   facebook: String,
   memberSince: Date,
   reviews: {
     starRank: Number,
-    userPic: {},
+    userPic: String,
     title: String,
     description: String
   },
   jobPost: {
     description: String,
-    image: {},
-    userPic: {},
+    image: String,
+    userPic: String,
     location: String,
     ranking: Number,
     memberSince: Date
