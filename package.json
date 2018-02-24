@@ -17,20 +17,10 @@
   },
   "homepage": "https://github.com/Fachada/Fachada#readme",
   "dependencies": {
-    "bcrypt": "^1.0.3",
-    "body-parser": "*",
-    "connect-flash": "*",
+    "body-parser": "^1.18.2",
     "cookie-parser": "^1.4.3",
-    "express": "*",
-    "express-handlebars": "*",
-    "express-messages": "*",
-    "express-session": "*",
-    "express-validator": "*",
-    "flash": "^1.1.0",
-    "mongodb": "*",
-    "mongoose": "^5.0.6",
-    "passport": "*",
-    "passport-http": "*",
-    "passport-local": "*"
+    "express": "^4.16.2",
+    "mongodb": "^3.0.3",
+    "mongoose": "^5.0.7"
   }
 }
