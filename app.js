@@ -69,11 +69,3 @@ filenames.forEach(function(filename) {
 hbs.registerHelper('json', function(context) {
   return JSON.stringify(context, null, 2);
 });
-
-//Set port
-app.get('/', function(req, res) {
-  pages.index(req, res)
-})
-app.listen(3000, function() {
-      console.log('Server started!')
-    };
