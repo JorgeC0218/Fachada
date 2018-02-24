@@ -30,6 +30,22 @@
     "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
     "webpack": "^2.2.0",
-    "webpack-dotenv-plugin": "^2.0.0"
+    "webpack-dotenv-plugin": "^2.0.0",
+
+    "bcrypt": "^1.0.3",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.3",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "flash": "^1.1.0",
+    "mongodb": "*",
+    "mongoose": "^5.0.6",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
   }
 }

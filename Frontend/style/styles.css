@@ -1,0 +1,231 @@
+ body {
+  font-family: Arial, sans-serif;
+  background-image: url("../style/sala-de-estar-borrosa_1203-32.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+
+}
+
+
+# forms {
+  text-align: center;
+
+}
+
+.pageinfo{
+  display: inline-block;
+  display: flex;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+  font-family: monospace;
+  text-align: left;
+  color: #B22222;
+  margin-left: 50px;
+  margin-right: 150px;
+  padding-right: 10px;
+  margin-top: 15px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 50px;
+  font-family: monospace;
+  text-align: left;
+  color: #B22222;
+  margin-left: 50px;
+  margin-right: 150px;
+  padding-right: 10px;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+
+p {
+  font-size: 18px;
+  font-family: monospace;
+  text-align: right;
+  color: #B22222;
+  margin-left: 230px;
+  padding-left: 300px;
+  margin-bottom: 0px;
+  margin-top: 40px;
+
+}
+
+
+.p1 {
+  font-size: 18px;
+  font-family: monospace;
+  text-align: right;
+  color: #B22222;
+  margin-left: 325px;
+  padding-left: 300px;
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 700;
+  font-family: sans-serif;
+  font-size: 28px;
+}
+
+a[target="_blank"] {
+  color: #1E90FF;
+  text-decoration: none;
+  border-bottom: solid;
+  border-bottom-width: thin;
+}
+
+.content {
+
+font-family: 'Open Sans', sans-serif;
+color: #B22222;
+margin: 45px auto 47px auto;
+background: rgba(22,22,22, 0.4);
+width: 40%;
+max-width: 960px;
+border-radius: 5px;
+padding-bottom: 73px;
+padding-top: 15px;
+}
+
+.sigupcontent {
+  font-family: 'Open Sans', sans-serif;
+  color: #B22222;
+  margin: 5px auto 20px auto;
+  background: rgba(22,22,22, 0.4);
+  width: 40%;
+  max-width: 960px;
+  border-radius: 5px;
+  padding-bottom: 0px;
+  padding-top: 3px;
+
+}
+
+
+
+
+#Email{
+
+  margin-left: 80px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+#pass{
+  margin-left: 80px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+
+
+input[type=text], input[type=password] {
+    width: 65%;
+    padding: 12px 5px;
+    margin: 0px 0px 20px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 7px 0px;
+    margin: 35px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 28%;
+    align: center;
+    margin-bottom: 33px;
+
+}
+
+.button2 {
+margin-bottom: 70px;
+
+}
+
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
+.imgcontainer {
+    height: 90%;
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+.imgcontainer2 {
+  height: 90%;
+  text-align: center;
+  margin: 50px auto 35px 0;
+}
+
+img.logo {
+    width: 50%;
+    height: 110%;
+    border-radius: 50%;
+}
+
+#box {
+  font-weight: bold;
+  font-size: 20px;
+  font-style:italic;
+  color: black;
+   -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: black;
+  margin-top: 20px;
+}
+
+#termsbox {
+  font-weight: bold;
+  font-size: 14px;
+  font-style:italic;
+  color: black;
+   -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: black;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+span.passwords {
+    float: right;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 20px;
+    color: black;
+     -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black;
+}
+
+
+@media screen and (max-width: 300px) {
+    span.passwords {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+------------------------------------------------
