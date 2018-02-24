@@ -11,6 +11,7 @@ var LocalStrategy = require('passport-local');
 var LocalStrategy = require('Strategy');
 var mongo = require('mongodb');
 var mongoose = require('mongoose');
+
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var db = require('./model/db.js');
